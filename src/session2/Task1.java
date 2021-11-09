@@ -11,23 +11,9 @@ import java.util.Scanner;
  */
 public class Task1 {
     public static void main(String[] args) {
-        Scanner scan = new java.util.Scanner(System.in);
-        while (true) {
-            System.out.print("\nPlease enter a year: ");
-            int year = scan.nextInt();
+        Scanner scan = new Scanner(System.in);
 
-            boolean isLeapYear = false;
+        // write your code here...
 
-            if (year % 4 == 0) {
-                isLeapYear = true;
-                if (year % 100 == 0) {
-                    isLeapYear = false;
-                }
-                if (year % 400 == 0) {
-                    isLeapYear = true;
-                }
-            }
-            System.out.println("Is year " + year + " a leap year? " +isLeapYear);
-        }
     }
 }

@@ -6,21 +6,13 @@ package session2;
 public class Task3 {
     public static void main(String[] args) {
         System.out.println("for loop");
-        for (int i = 100; i >= 50; i -= 5) {
-            System.out.print(i + "\t");
-        }
+        // write your code here...
 
         System.out.println("\n\nwhile loop");
-        int i = 100;
-        while (i >= 50) {
-            System.out.print(i + "\t");
-            i -= 5;
-        }
+        // write your code here...
+
         System.out.println("\n\ndo-while loop");
-        i = 100;
-        do {
-            System.out.print(i + "\t");
-            i -= 5;
-        } while (i >= 50);
+        // write your code here...
+
     }
 }

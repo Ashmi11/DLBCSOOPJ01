@@ -15,13 +15,8 @@ public class Task2 {
     public static void main(String[] args) {
         Scanner scan = new java.util.Scanner(System.in);
         System.out.print("Please enter an integer: ");
-        int number = scan.nextInt();
 
-        for (int a = 1; a <= number; a++) {
-            for (int b = 1; b <= number; b++) {
-                System.out.print(a + "*" + b + "=" + (b * a) + "\t");
-            }
-            System.out.println();
-        }
+        // write your code here...
+
     }
 }
