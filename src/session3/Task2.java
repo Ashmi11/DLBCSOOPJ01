@@ -13,7 +13,6 @@ public class Task2 {
         int[] betNumbers = new int[6];
         Scanner scan = new Scanner(System.in);
 
-
         // get 6 numbers from the user
         // write your code from here
 
@@ -23,7 +22,7 @@ public class Task2 {
         int nrOfDraws = 0;
         int[] drawnNumbers;
 
-        // repeat until betNumbers and drawnNumbers are not the same
+        // repeat as long as betNumbers and drawnNumbers are not the same
         do {
             // generate random numbers
             nrOfDraws++;
@@ -34,8 +33,6 @@ public class Task2 {
 
         System.out.println("drawnNumbers = " + Arrays.toString(drawnNumbers));
         System.out.println("Nr of draws necessary = " + String.format("%,d", nrOfDraws));
-
-
     }
 
     /**
