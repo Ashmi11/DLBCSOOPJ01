@@ -11,21 +11,7 @@ package session1;
  */
 public class Task2 {
     public static void main(String[] args) {
+        // write your code here...
 
-        int a, b;
-        a = 1234;
-        System.out.println("a = " + a);
-
-        b = 99;
-        System.out.println("b = " + b);
-
-        int t = a;
-        System.out.println("t = " + t);
-
-        a = b;
-        System.out.println("a = " + a);
-
-        b = t;
-        System.out.println("b = " + b);
     }
 }

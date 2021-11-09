@@ -8,16 +8,10 @@ import java.util.Scanner;
  */
 public class Task3 {
     public static void main(String[] args) {
-        Scanner scan = new java.util.Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
         System.out.print("Please enter the first number: ");
-        double a = scan.nextDouble();
 
-        System.out.print("\nPlease enter the second number: ");
-        double b = scan.nextDouble();
+        // write your code here...
 
-        System.out.println("\nAddition: " + a + " + " + b + " == " + (a + b));
-        System.out.println("Subtraction: " + a + " - " + b + " == " + (a - b));
-        System.out.println("Multiplication: " + a + " * " + b + " == " + (a * b));
-        System.out.println("Division: " + a + " / " + b + " == " + (a / b));
     }
 }
