@@ -13,9 +13,17 @@ public class Task1 {
     }
 
     private static int[] smallestAndBiggest(int[] values) {
-        int smallest = Integer.MIN_VALUE, biggest = Integer.MAX_VALUE;
+        int smallest = Integer.MAX_VALUE, biggest = Integer.MIN_VALUE;
         // write your code here
-
+        for (int i = 0; i < values.length; i++) {
+            int current = values[i];
+            if (current > biggest) {
+                biggest = current;
+            }
+            if (current < smallest) {
+                smallest = current;
+            }
+        }
         int[] result = {smallest, biggest};
         return result;
     }
